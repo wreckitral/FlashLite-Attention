@@ -1,0 +1,12 @@
+{
+  "generated_files": [
+    "table1_performance.csv",
+    "table2_bottleneck.csv",
+    "table3_shared_memory.csv",
+    "table4_occupancy.csv",
+    "table5_memory_correctness.csv"
+  ],
+  "gpu": "RTX 3050 Laptop 4GB",
+  "cuda_version": "12.4",
+  "test_config": "2048x2048x64"
+}

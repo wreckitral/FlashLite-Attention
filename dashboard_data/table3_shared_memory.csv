@@ -1,0 +1,5 @@
+Kernel,Shared Mem (KB),Uncoalesced %,Bank Conflicts
+PyTorch Reference,0.002371428571428572,25.74337991428571,0.0
+p0 (Naive: 3 kernels),0.0002666666666666667,55.0278016,0.0
+p1 (Tiled + Online Softmax),0.007802083333333334,46.67809999999999,0.0
+p2 (FlashLite Fused),0.0095,63.63636363636363,0.0

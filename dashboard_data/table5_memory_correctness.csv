@@ -1,0 +1,5 @@
+Kernel,Memory (MB),MAE,Status
+PyTorch Reference,204.125,0.0,PASS
+p0 (Naive: 3 kernels),141.125,1.4163870964978288e-08,PASS
+p1 (Tiled + Online Softmax),78.125,1.4573608098089608e-08,PASS
+p2 (FlashLite Fused),15.125,2.0389951060906242e-08,PASS

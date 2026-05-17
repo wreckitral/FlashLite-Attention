@@ -1,0 +1,5 @@
+Kernel,Theoretical %,Achieved %
+PyTorch Reference,11.6,70.89310954285715
+p0 (Naive: 3 kernels),6.0,88.91852246666666
+p1 (Tiled + Online Softmax),11.066666666666666,59.4814782
+p2 (FlashLite Fused),7.090909090909091,79.12704709090909
